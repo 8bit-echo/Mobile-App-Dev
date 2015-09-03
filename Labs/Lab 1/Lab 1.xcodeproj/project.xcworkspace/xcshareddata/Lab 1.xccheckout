@@ -14,11 +14,11 @@
 		<string>https://github.com/dick-ey/Mobile-App-Dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Lab 1/Lab 1.xcodeproj</string>
+	<string>Labs/Lab 1/Lab 1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A078AC243CACC6A8E3B269EC3EA6A8B897998649</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/dick-ey/Mobile-App-Dev.git</string>

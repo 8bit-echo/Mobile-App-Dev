@@ -37,8 +37,10 @@ class ViewController: UIViewController {
             backgroundImage.image=UIImage(named: "raven-background.png")
             
         }else if sender.tag==0{
-            artTitle.text=""
-            artMedium.text=""
+            artTitle.text="24 (Self-Portrait)"
+            artTitle.textColor=UIColor.whiteColor()
+            artMedium.text="2014 - Digital"
+            artMedium.textColor=UIColor.whiteColor()
             artImage.image=UIImage(named: "me.png")
             backgroundImage.image=UIImage(named: "default-background-image.png")
         }
