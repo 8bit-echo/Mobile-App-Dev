@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func updateTipTotals(){
         let amount = (checkAmount.text as NSString).floatValue
         let pct = (tipAmount.text as NSString).floatValue/100
-        let numberOfPeople = (partySize.text.toInt()) //returns an optional
+        let numberOfPeople;? = (partySize.text. ToInt()) //returns an optional
         let tip = amount*pct
         let total = amount+tip
         

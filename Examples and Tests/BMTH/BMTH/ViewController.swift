@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageLabel: UILabel!
     @IBOutlet weak var imageControl: UISegmentedControl!
     @IBOutlet weak var capitalSwitch: UISwitch!
+    @IBOutlet weak var fontSliderOutlet: UISlider!
+    @IBOutlet weak var fontSizeLabel: UILabel!
+
     
     
     func updateCaps(){
@@ -60,6 +63,12 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func fontSliderAction(sender: UISlider) {
+        let fontSize = sender.value
+        fontSizeLabel.text = String(format: "%.0f", fontSize)
+        let fontSizeCGFloat = CGFloat(fontSize)
+        imageLabel.font=UIFont.systemFontOfSize(fontSizeCGFloat)
+    }
     
     
     
