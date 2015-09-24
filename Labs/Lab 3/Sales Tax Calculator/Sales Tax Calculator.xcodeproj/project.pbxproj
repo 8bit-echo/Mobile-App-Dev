@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F075395A1BB4489C00744452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07539591BB4489C00744452 /* AppDelegate.swift */; };
+		F075395C1BB4489C00744452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F075395B1BB4489C00744452 /* ViewController.swift */; };
+		F075395F1BB4489C00744452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F075395D1BB4489C00744452 /* Main.storyboard */; };
+		F07539611BB4489C00744452 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07539601BB4489C00744452 /* Images.xcassets */; };
+		F07539641BB4489C00744452 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07539621BB4489C00744452 /* LaunchScreen.xib */; };
+		F07539701BB4489C00744452 /* Sales_Tax_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F075396F1BB4489C00744452 /* Sales_Tax_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F075396A1BB4489C00744452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F075394C1BB4489C00744452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07539531BB4489C00744452;
+			remoteInfo = "Sales Tax Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F07539541BB4489C00744452 /* Sales Tax Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sales Tax Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07539581BB4489C00744452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07539591BB4489C00744452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F075395B1BB4489C00744452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F075395E1BB4489C00744452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F07539601BB4489C00744452 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F07539631BB4489C00744452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F07539691BB4489C00744452 /* Sales Tax CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sales Tax CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F075396E1BB4489C00744452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F075396F1BB4489C00744452 /* Sales_Tax_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sales_Tax_CalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07539511BB4489C00744452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07539661BB4489C00744452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F075394B1BB4489C00744452 = {
+			isa = PBXGroup;
+			children = (
+				F07539561BB4489C00744452 /* Sales Tax Calculator */,
+				F075396C1BB4489C00744452 /* Sales Tax CalculatorTests */,
+				F07539551BB4489C00744452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F07539551BB4489C00744452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07539541BB4489C00744452 /* Sales Tax Calculator.app */,
+				F07539691BB4489C00744452 /* Sales Tax CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07539561BB4489C00744452 /* Sales Tax Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F07539591BB4489C00744452 /* AppDelegate.swift */,
+				F075395B1BB4489C00744452 /* ViewController.swift */,
+				F075395D1BB4489C00744452 /* Main.storyboard */,
+				F07539601BB4489C00744452 /* Images.xcassets */,
+				F07539621BB4489C00744452 /* LaunchScreen.xib */,
+				F07539571BB4489C00744452 /* Supporting Files */,
+			);
+			path = "Sales Tax Calculator";
+			sourceTree = "<group>";
+		};
+		F07539571BB4489C00744452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07539581BB4489C00744452 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F075396C1BB4489C00744452 /* Sales Tax CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F075396F1BB4489C00744452 /* Sales_Tax_CalculatorTests.swift */,
+				F075396D1BB4489C00744452 /* Supporting Files */,
+			);
+			path = "Sales Tax CalculatorTests";
+			sourceTree = "<group>";
+		};
+		F075396D1BB4489C00744452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F075396E1BB4489C00744452 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07539531BB4489C00744452 /* Sales Tax Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07539731BB4489C00744452 /* Build configuration list for PBXNativeTarget "Sales Tax Calculator" */;
+			buildPhases = (
+				F07539501BB4489C00744452 /* Sources */,
+				F07539511BB4489C00744452 /* Frameworks */,
+				F07539521BB4489C00744452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sales Tax Calculator";
+			productName = "Sales Tax Calculator";
+			productReference = F07539541BB4489C00744452 /* Sales Tax Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07539681BB4489C00744452 /* Sales Tax CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07539761BB4489C00744452 /* Build configuration list for PBXNativeTarget "Sales Tax CalculatorTests" */;
+			buildPhases = (
+				F07539651BB4489C00744452 /* Sources */,
+				F07539661BB4489C00744452 /* Frameworks */,
+				F07539671BB4489C00744452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F075396B1BB4489C00744452 /* PBXTargetDependency */,
+			);
+			name = "Sales Tax CalculatorTests";
+			productName = "Sales Tax CalculatorTests";
+			productReference = F07539691BB4489C00744452 /* Sales Tax CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F075394C1BB4489C00744452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Matt Dickey";
+				TargetAttributes = {
+					F07539531BB4489C00744452 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F07539681BB4489C00744452 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F07539531BB4489C00744452;
+					};
+				};
+			};
+			buildConfigurationList = F075394F1BB4489C00744452 /* Build configuration list for PBXProject "Sales Tax Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F075394B1BB4489C00744452;
+			productRefGroup = F07539551BB4489C00744452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07539531BB4489C00744452 /* Sales Tax Calculator */,
+				F07539681BB4489C00744452 /* Sales Tax CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07539521BB4489C00744452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F075395F1BB4489C00744452 /* Main.storyboard in Resources */,
+				F07539641BB4489C00744452 /* LaunchScreen.xib in Resources */,
+				F07539611BB4489C00744452 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07539671BB4489C00744452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07539501BB4489C00744452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F075395C1BB4489C00744452 /* ViewController.swift in Sources */,
+				F075395A1BB4489C00744452 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07539651BB4489C00744452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07539701BB4489C00744452 /* Sales_Tax_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F075396B1BB4489C00744452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07539531BB4489C00744452 /* Sales Tax Calculator */;
+			targetProxy = F075396A1BB4489C00744452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F075395D1BB4489C00744452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F075395E1BB4489C00744452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F07539621BB4489C00744452 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07539631BB4489C00744452 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F07539711BB4489C00744452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F07539721BB4489C00744452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07539741BB4489C00744452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sales Tax Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F07539751BB4489C00744452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sales Tax Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F07539771BB4489C00744452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sales Tax CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sales Tax Calculator.app/Sales Tax Calculator";
+			};
+			name = Debug;
+		};
+		F07539781BB4489C00744452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sales Tax CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sales Tax Calculator.app/Sales Tax Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F075394F1BB4489C00744452 /* Build configuration list for PBXProject "Sales Tax Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07539711BB4489C00744452 /* Debug */,
+				F07539721BB4489C00744452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07539731BB4489C00744452 /* Build configuration list for PBXNativeTarget "Sales Tax Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07539741BB4489C00744452 /* Debug */,
+				F07539751BB4489C00744452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F07539761BB4489C00744452 /* Build configuration list for PBXNativeTarget "Sales Tax CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07539771BB4489C00744452 /* Debug */,
+				F07539781BB4489C00744452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F075394C1BB4489C00744452 /* Project object */;
+}
