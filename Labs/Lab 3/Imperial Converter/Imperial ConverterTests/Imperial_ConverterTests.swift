@@ -1,6 +1,6 @@
 //
-//  Sales_Tax_CalculatorTests.swift
-//  Sales Tax CalculatorTests
+//  Imperial_ConverterTests.swift
+//  Imperial ConverterTests
 //
 //  Created by Matt Dickey on 9/24/15.
 //  Copyright (c) 2015 Matt Dickey. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class Sales_Tax_CalculatorTests: XCTestCase {
+class Imperial_ConverterTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

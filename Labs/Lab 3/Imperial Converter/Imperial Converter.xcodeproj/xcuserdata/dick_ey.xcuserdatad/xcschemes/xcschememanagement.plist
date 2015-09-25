@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Sales Tax Calculator.xcscheme</key>
+		<key>Imperial Converter.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F07539531BB4489C00744452</key>
+		<key>F01A86A21BB4592B00EC8623</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F07539681BB4489C00744452</key>
+		<key>F01A86B71BB4592B00EC8623</key>
 		<dict>
 			<key>primary</key>
 			<true/>

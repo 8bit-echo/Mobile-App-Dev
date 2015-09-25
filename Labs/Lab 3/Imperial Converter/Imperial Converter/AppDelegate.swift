@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Sales Tax Calculator
+//  Imperial Converter
 //
 //  Created by Matt Dickey on 9/24/15.
 //  Copyright (c) 2015 Matt Dickey. All rights reserved.

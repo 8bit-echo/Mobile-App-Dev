@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F07539531BB4489C00744452"
-               BuildableName = "Sales Tax Calculator.app"
-               BlueprintName = "Sales Tax Calculator"
-               ReferencedContainer = "container:Sales Tax Calculator.xcodeproj">
+               BlueprintIdentifier = "F01A86A21BB4592B00EC8623"
+               BuildableName = "Imperial Converter.app"
+               BlueprintName = "Imperial Converter"
+               ReferencedContainer = "container:Imperial Converter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F07539681BB4489C00744452"
-               BuildableName = "Sales Tax CalculatorTests.xctest"
-               BlueprintName = "Sales Tax CalculatorTests"
-               ReferencedContainer = "container:Sales Tax Calculator.xcodeproj">
+               BlueprintIdentifier = "F01A86B71BB4592B00EC8623"
+               BuildableName = "Imperial ConverterTests.xctest"
+               BlueprintName = "Imperial ConverterTests"
+               ReferencedContainer = "container:Imperial Converter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F07539681BB4489C00744452"
-               BuildableName = "Sales Tax CalculatorTests.xctest"
-               BlueprintName = "Sales Tax CalculatorTests"
-               ReferencedContainer = "container:Sales Tax Calculator.xcodeproj">
+               BlueprintIdentifier = "F01A86B71BB4592B00EC8623"
+               BuildableName = "Imperial ConverterTests.xctest"
+               BlueprintName = "Imperial ConverterTests"
+               ReferencedContainer = "container:Imperial Converter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F07539531BB4489C00744452"
-            BuildableName = "Sales Tax Calculator.app"
-            BlueprintName = "Sales Tax Calculator"
-            ReferencedContainer = "container:Sales Tax Calculator.xcodeproj">
+            BlueprintIdentifier = "F01A86A21BB4592B00EC8623"
+            BuildableName = "Imperial Converter.app"
+            BlueprintName = "Imperial Converter"
+            ReferencedContainer = "container:Imperial Converter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F07539531BB4489C00744452"
-            BuildableName = "Sales Tax Calculator.app"
-            BlueprintName = "Sales Tax Calculator"
-            ReferencedContainer = "container:Sales Tax Calculator.xcodeproj">
+            BlueprintIdentifier = "F01A86A21BB4592B00EC8623"
+            BuildableName = "Imperial Converter.app"
+            BlueprintName = "Imperial Converter"
+            ReferencedContainer = "container:Imperial Converter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F07539531BB4489C00744452"
-            BuildableName = "Sales Tax Calculator.app"
-            BlueprintName = "Sales Tax Calculator"
-            ReferencedContainer = "container:Sales Tax Calculator.xcodeproj">
+            BlueprintIdentifier = "F01A86A21BB4592B00EC8623"
+            BuildableName = "Imperial Converter.app"
+            BlueprintName = "Imperial Converter"
+            ReferencedContainer = "container:Imperial Converter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
