@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0AA57CC1BB1A57900B22B0F"
+               BlueprintIdentifier = "F0A8E3C01BB5C02C00FC0D30"
                BuildableName = "Do Date.app"
                BlueprintName = "Do Date"
                ReferencedContainer = "container:Do Date.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0AA57E11BB1A57900B22B0F"
+               BlueprintIdentifier = "F0A8E3D71BB5C02D00FC0D30"
                BuildableName = "Do DateTests.xctest"
                BlueprintName = "Do DateTests"
                ReferencedContainer = "container:Do Date.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0AA57E11BB1A57900B22B0F"
+               BlueprintIdentifier = "F0A8E3D71BB5C02D00FC0D30"
                BuildableName = "Do DateTests.xctest"
                BlueprintName = "Do DateTests"
                ReferencedContainer = "container:Do Date.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0AA57CC1BB1A57900B22B0F"
+            BlueprintIdentifier = "F0A8E3C01BB5C02C00FC0D30"
             BuildableName = "Do Date.app"
             BlueprintName = "Do Date"
             ReferencedContainer = "container:Do Date.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0AA57CC1BB1A57900B22B0F"
+            BlueprintIdentifier = "F0A8E3C01BB5C02C00FC0D30"
             BuildableName = "Do Date.app"
             BlueprintName = "Do Date"
             ReferencedContainer = "container:Do Date.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0AA57CC1BB1A57900B22B0F"
+            BlueprintIdentifier = "F0A8E3C01BB5C02C00FC0D30"
             BuildableName = "Do Date.app"
             BlueprintName = "Do Date"
             ReferencedContainer = "container:Do Date.xcodeproj">

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>27C45DC2-AB43-4A1C-A53A-2348CF2A0257</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Imperial Converter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A078AC243CACC6A8E3B269EC3EA6A8B897998649</key>
 		<string>https://github.com/dick-ey/Mobile-App-Dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Labs/Lab 3/Imperial Converter/Imperial Converter.xcodeproj/project.xcworkspace</string>
+	<string>Labs/Lab 3/Imperial Converter/Imperial Converter.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A078AC243CACC6A8E3B269EC3EA6A8B897998649</key>
