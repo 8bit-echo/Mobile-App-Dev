@@ -16,8 +16,10 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="MyE-Rx-BWh" secondAttribute="centerY" id="Sew-Nz-Fqj"/>
-                <constraint firstAttribute="centerX" secondItem="MyE-Rx-BWh" secondAttribute="centerX" id="a8d-qn-DVo"/>
+                <constraint firstAttribute="centerX" secondItem="MyE-Rx-BWh" secondAttribute="centerX" id="6Iu-tR-1Uu"/>
+                <constraint firstAttribute="bottom" secondItem="MyE-Rx-BWh" secondAttribute="bottom" id="cAG-uD-TDY"/>
+                <constraint firstAttribute="centerY" secondItem="MyE-Rx-BWh" secondAttribute="centerY" id="hi1-PB-nMm"/>
+                <constraint firstItem="MyE-Rx-BWh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lNf-MN-dij"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -26,8 +28,10 @@
                     <exclude reference="MyE-Rx-BWh"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="Sew-Nz-Fqj"/>
-                    <exclude reference="a8d-qn-DVo"/>
+                    <exclude reference="6Iu-tR-1Uu"/>
+                    <exclude reference="cAG-uD-TDY"/>
+                    <exclude reference="hi1-PB-nMm"/>
+                    <exclude reference="lNf-MN-dij"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
@@ -35,11 +39,13 @@
                     <include reference="MyE-Rx-BWh"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="Sew-Nz-Fqj"/>
-                    <include reference="a8d-qn-DVo"/>
+                    <include reference="6Iu-tR-1Uu"/>
+                    <include reference="cAG-uD-TDY"/>
+                    <include reference="hi1-PB-nMm"/>
+                    <include reference="lNf-MN-dij"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="548" y="455"/>
+            <point key="canvasLocation" x="548" y="515"/>
         </view>
     </objects>
     <resources>

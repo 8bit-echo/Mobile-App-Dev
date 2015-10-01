@@ -8,8 +8,8 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-    
+class SecondViewController: UIViewController, UITextFieldDelegate {
+
     
     
     @IBOutlet weak var taskText: UITextField!
