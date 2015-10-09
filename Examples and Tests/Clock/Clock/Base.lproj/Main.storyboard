@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jEB-pt-7Ve">
+                                <rect key="frame" x="166" y="490" width="268" height="31"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="264" id="hf9-bG-9Ix"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderMoved:" destination="vXZ-lx-hvc" eventType="valueChanged" id="N9Z-G2-2ey"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slider Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zok-25-7nu">
+                                <rect key="frame" x="255" y="528" width="90" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Qx9-MZ-RCo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="punpkin" translatesAutoresizingMaskIntoConstraints="NO" id="ngA-hL-u5x">
+                                <rect key="frame" x="245" y="235" width="110" height="110"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="5mt-cX-lbm"/>
+                                    <constraint firstAttribute="height" constant="110" id="8ay-gr-aJp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zok-25-7nu" firstAttribute="centerX" secondItem="jEB-pt-7Ve" secondAttribute="centerX" id="3Ha-OS-6zs"/>
+                            <constraint firstItem="jEB-pt-7Ve" firstAttribute="centerX" secondItem="ngA-hL-u5x" secondAttribute="centerX" id="LCr-fD-eX0"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="zok-25-7nu" secondAttribute="bottom" constant="51" id="OBv-C3-tUG"/>
+                            <constraint firstItem="ngA-hL-u5x" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="215" id="WIX-dY-Ymo"/>
+                            <constraint firstItem="zok-25-7nu" firstAttribute="top" secondItem="jEB-pt-7Ve" secondAttribute="bottom" constant="8" symbolic="YES" id="cSW-JH-p10"/>
+                            <constraint firstItem="jEB-pt-7Ve" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="zq4-Qn-uOU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pumpkinView" destination="ngA-hL-u5x" id="1rj-bg-fNR"/>
+                        <outlet property="sliderLabel" destination="zok-25-7nu" id="Twk-do-0ci"/>
+                        <outlet property="sliderOutlet" destination="jEB-pt-7Ve" id="PXC-Rv-XFN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="punpkin" width="128" height="128"/>
+    </resources>
+</document>

@@ -33,7 +33,6 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
     
     
     
-    
     @IBAction func addTaskButton(sender: UIButton) {
         if taskText.text == ""{
         //Do Nothing
