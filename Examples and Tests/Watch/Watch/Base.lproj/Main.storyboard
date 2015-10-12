@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="o4Z-eR-feI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="o4Z-eR-feI">
                                 <rect key="frame" x="113" y="112" width="375" height="375"/>
                                 <animations/>
                                 <constraints>
@@ -127,17 +127,17 @@
                                 <exclude reference="Cce-br-BxV"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="gw5-mJ-V86"/>
+                                <exclude reference="tFy-rb-89c"/>
+                                <exclude reference="5yk-JS-hr9"/>
+                                <exclude reference="eMh-vd-aAp"/>
                                 <exclude reference="RSc-5p-gcy"/>
                                 <exclude reference="m1T-uE-9ji"/>
                                 <exclude reference="sns-zy-AId"/>
-                                <exclude reference="PWd-wP-znC"/>
-                                <exclude reference="wz9-wH-1gv"/>
-                                <exclude reference="5yk-JS-hr9"/>
-                                <exclude reference="eMh-vd-aAp"/>
                                 <exclude reference="3b6-aa-w5S"/>
                                 <exclude reference="UJb-mc-ZJS"/>
-                                <exclude reference="gw5-mJ-V86"/>
-                                <exclude reference="tFy-rb-89c"/>
+                                <exclude reference="PWd-wP-znC"/>
+                                <exclude reference="wz9-wH-1gv"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -148,17 +148,17 @@
                                 <include reference="Cce-br-BxV"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="gw5-mJ-V86"/>
+                                <include reference="tFy-rb-89c"/>
+                                <include reference="5yk-JS-hr9"/>
+                                <include reference="eMh-vd-aAp"/>
                                 <include reference="RSc-5p-gcy"/>
                                 <include reference="m1T-uE-9ji"/>
                                 <include reference="sns-zy-AId"/>
-                                <include reference="PWd-wP-znC"/>
-                                <include reference="wz9-wH-1gv"/>
-                                <include reference="5yk-JS-hr9"/>
-                                <include reference="eMh-vd-aAp"/>
                                 <include reference="3b6-aa-w5S"/>
                                 <include reference="UJb-mc-ZJS"/>
-                                <include reference="gw5-mJ-V86"/>
-                                <include reference="tFy-rb-89c"/>
+                                <include reference="PWd-wP-znC"/>
+                                <include reference="wz9-wH-1gv"/>
                             </mask>
                         </variation>
                     </view>

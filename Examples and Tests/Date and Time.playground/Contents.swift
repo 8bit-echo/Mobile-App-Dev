@@ -1,5 +1,4 @@
  import UIKit
- import Foundation
  
 //let date = NSDate()
 //let calendar = NSCalendar.currentCalendar()
@@ -61,11 +60,11 @@
 // 
 
  func getDate() -> (hours: Int, minutes: Int, seconds: Int){
- let date2 = NSDate()
- let calendar2 = NSCalendar.currentCalendar()
+ let date = NSDate()
+ let calendar = NSCalendar.currentCalendar()
  let formatter = NSDateFormatterStyle.MediumStyle
  
- let components = calendar2.components(.CalendarUnitHour | .CalendarUnitMinute | .CalendarUnitSecond, fromDate: date2)
+ let components = calendar.components(.CalendarUnitHour | .CalendarUnitMinute | .CalendarUnitSecond, fromDate: date)
  var hour = components.hour
  let minute = components.minute
  let second = components.second
@@ -78,7 +77,6 @@ return (hours: hour, minutes: minute, seconds: second)
 var returnedHour = timeTuple.hours
 var returnedMin = timeTuple.minutes
 timeTuple.seconds
- 
  
  
  if returnedHour > 12 {

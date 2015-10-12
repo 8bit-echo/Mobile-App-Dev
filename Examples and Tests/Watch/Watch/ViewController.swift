@@ -15,13 +15,30 @@ class ViewController: UIViewController {
     @IBOutlet weak var minuteHand: UIImageView!
     @IBOutlet weak var hourHand: UIImageView!
     
+
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        getDate()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+    
     //Get Current time and return the values for each component as an Int
     func getDate() -> (hours: Int, minutes: Int, seconds: Int){
         let date = NSDate()
         let calendar = NSCalendar.currentCalendar()
         let formatter = NSDateFormatterStyle.MediumStyle
+        
         let components = calendar.components(.CalendarUnitHour | .CalendarUnitMinute | .CalendarUnitSecond, fromDate: date)
-        var hour = components.hour
+        let hour = components.hour
         let minute = components.minute
         let second = components.second
         
@@ -31,39 +48,23 @@ class ViewController: UIViewController {
         return (hours: hour, minutes: minute, seconds: second)
     }
     
-    //unwrap the Tuple into variable to use for translation
-    let timeTuple = getDate
-//    var returnedHour = timeTuple.hours
-//    var returnedMin = timeTuple.minutes
-//    timeTuple.seconds
-//    
-//    //Fix some minor formatting issues
-//    
-//    if returnedHour > 12 {
-//    returnedHour = returnedHour % 12
-//    }else if returnedHour == 0 {
-//    returnedHour = 12
-//    }
     
-//    //convert current time into rotation (deg) of clock hands
-//    
-//    let hourHandRotation = returnedHour * 30
-//    let minuteHandRotation = returnedMin * 12
-//    
-
+    let timeTuple = getDate()
+    
+    var returnedHour = timeTuple.hours
+    var returnedMin = timeTuple.minutes
+    timeTuple.seconds
+    
+    
+    
+    
+    
+    
+    
     
 
-    override func viewDidLoad() {
-        getDate()
-        
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
+    
 
 
 }
