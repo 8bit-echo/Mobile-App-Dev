@@ -13,6 +13,7 @@
 		F058D15C1BC6C78500BB28FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F058D15B1BC6C78500BB28FE /* Images.xcassets */; };
 		F058D15F1BC6C78500BB28FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F058D15D1BC6C78500BB28FE /* LaunchScreen.xib */; };
 		F058D16B1BC6C78500BB28FE /* WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F058D16A1BC6C78500BB28FE /* WatchTests.swift */; };
+		F0DC2D771BCD590500B39708 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DC2D761BCD590500B39708 /* functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F058D1641BC6C78500BB28FE /* WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F058D1691BC6C78500BB28FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F058D16A1BC6C78500BB28FE /* WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTests.swift; sourceTree = "<group>"; };
+		F0DC2D761BCD590500B39708 /* functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F058D1541BC6C78500BB28FE /* AppDelegate.swift */,
 				F058D1561BC6C78500BB28FE /* ViewController.swift */,
+				F0DC2D761BCD590500B39708 /* functions.swift */,
 				F058D1581BC6C78500BB28FE /* Main.storyboard */,
 				F058D15B1BC6C78500BB28FE /* Images.xcassets */,
 				F058D15D1BC6C78500BB28FE /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			files = (
 				F058D1571BC6C78500BB28FE /* ViewController.swift in Sources */,
 				F058D1551BC6C78500BB28FE /* AppDelegate.swift in Sources */,
+				F0DC2D771BCD590500B39708 /* functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

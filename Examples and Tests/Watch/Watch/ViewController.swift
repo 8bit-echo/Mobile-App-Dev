@@ -17,11 +17,14 @@ class ViewController: UIViewController {
     
 
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         getDate()
+        updateTime()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,30 +45,24 @@ class ViewController: UIViewController {
         let minute = components.minute
         let second = components.second
         
-        // Update Digital readout
         currentTimeLabel.text = "\(hour):\(minute):\(second)"
         
         return (hours: hour, minutes: minute, seconds: second)
     }
     
+    var timer : NSTimer = NSTimer()
     
-    let timeTuple = getDate()
-    
-    var returnedHour = timeTuple.hours
-    var returnedMin = timeTuple.minutes
-    timeTuple.seconds
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-
+    func updateTime() {
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: timer, selector:"getDate", userInfo: nil, repeats: true)
+        
+    }
 
 }
+
+var testObject: ViewController?
+var timeTuple = testObject?.getDate()
+var returnedHour = timeTuple!.hours
+var returnedMin = timeTuple!.minutes
+var returnedSecs = timeTuple!.seconds
+
 

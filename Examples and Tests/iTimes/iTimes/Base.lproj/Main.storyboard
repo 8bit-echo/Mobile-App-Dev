@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="iTimes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PUr-kQ-g19">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="iTimer" id="3gE-Vw-pzl"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N3h-Ud-aiN">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem title="Item" systemItem="play" id="vue-tf-tdO">
+                                        <connections>
+                                            <action selector="playButton:" destination="vXZ-lx-hvc" id="M1q-BI-Nwb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2aL-l1-sGk"/>
+                                    <barButtonItem title="Item" systemItem="pause" id="YPW-IS-QeO">
+                                        <connections>
+                                            <action selector="pauseButon:" destination="vXZ-lx-hvc" id="egv-E6-ZI3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcl-Di-4e4">
+                                <rect key="frame" x="89" y="162" width="142" height="127"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="thN-jC-3Y9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewK-IA-tKp">
+                                <rect key="frame" x="140" y="321" width="40" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Az-eQ-sIX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ewK-IA-tKp" firstAttribute="centerX" secondItem="hcl-Di-4e4" secondAttribute="centerX" id="9Eq-cX-OuB"/>
+                            <constraint firstItem="ewK-IA-tKp" firstAttribute="top" secondItem="hcl-Di-4e4" secondAttribute="bottom" constant="32" id="Rr4-9U-p4W"/>
+                            <constraint firstItem="PUr-kQ-g19" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Uuv-jZ-D7g"/>
+                            <constraint firstItem="PUr-kQ-g19" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="YDQ-fy-gkE"/>
+                            <constraint firstAttribute="trailing" secondItem="PUr-kQ-g19" secondAttribute="trailing" id="YnZ-Fm-6c7"/>
+                            <constraint firstItem="hcl-Di-4e4" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="162" id="fHC-ta-nOj"/>
+                            <constraint firstItem="N3h-Ud-aiN" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="hhz-XL-mqI"/>
+                            <constraint firstItem="N3h-Ud-aiN" firstAttribute="leading" secondItem="PUr-kQ-g19" secondAttribute="leading" id="oLW-5B-L7r"/>
+                            <constraint firstItem="N3h-Ud-aiN" firstAttribute="trailing" secondItem="PUr-kQ-g19" secondAttribute="trailing" id="pMa-nq-Tbs"/>
+                            <constraint firstItem="N3h-Ud-aiN" firstAttribute="centerX" secondItem="ewK-IA-tKp" secondAttribute="centerX" id="pjt-vL-3g9"/>
+                            <constraint firstItem="hcl-Di-4e4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="73" id="ydm-0n-W2v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="hcl-Di-4e4" id="bjP-d2-1hG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="416"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
