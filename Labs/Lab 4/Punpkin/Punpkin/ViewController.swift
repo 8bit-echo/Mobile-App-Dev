@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     
     var translation = CGPointMake(0.0, 0.0)
-    var delta = CGPointMake(4, 4) // initilaize the delta to move 12 points laterally and 4 vertically
+    var delta = CGPointMake(12, 4) // initilaize the delta to move 12 points laterally and 4 vertically
     var pumpRadius = CGFloat() // radius of image
     var timer = NSTimer() // make animation timer
     
@@ -44,15 +44,17 @@ class ViewController: UIViewController {
         if pumpkinView.center.y + translation.y > view.bounds.size.height - pumpRadius || pumpkinView.center.y + translation.y < pumpRadius{
             delta.y = -delta.y
         }
+    }
 
         func changeSliderValue() {
-            sliderLabel.text = String(format: "%.2f", sliderOutlet.value)
-            timer = NSTimer.scheduledTimerWithTimeInterval(Double(sliderOutlet.value), target: self, selector: "moveImage", userInfo: nil, repeats: true)
+            sliderLabel.text = String(format: "%.2f", sliderOutlet.value * 100)
+            timer = NSTimer.scheduledTimerWithTimeInterval(Double(sliderOutlet.value / 10), target: self, selector: "moveImage", userInfo: nil, repeats: true)
         }
-        
+    
+    
 
 
-   func viewDidLoad() {
+   override func viewDidLoad() {
         pumpRadius = pumpkinView.frame.size.width/2
         changeSliderValue()
         super.viewDidLoad()
