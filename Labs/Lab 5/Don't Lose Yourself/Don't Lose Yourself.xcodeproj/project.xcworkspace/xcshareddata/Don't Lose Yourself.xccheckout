@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CC7AA37D-16A2-4598-9B6F-596C9FE65E27</string>
+	<string>17A2E069-9605-4DC5-ACCB-F201355B610D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Audio</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A078AC243CACC6A8E3B269EC3EA6A8B897998649</key>
 		<string>https://github.com/dick-ey/Mobile-App-Dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Examples and Tests/Audio/Audio.xcodeproj</string>
+	<string>Labs/Lab 5/Don't Lose Yourself/Don't Lose Yourself.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A078AC243CACC6A8E3B269EC3EA6A8B897998649</key>
-		<string>../../../..</string>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/dick-ey/Mobile-App-Dev.git</string>
