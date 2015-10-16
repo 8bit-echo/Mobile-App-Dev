@@ -13,6 +13,9 @@
 		F007AE071BD03180004A9EA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F007AE061BD03180004A9EA0 /* Images.xcassets */; };
 		F007AE0A1BD03180004A9EA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F007AE081BD03180004A9EA0 /* LaunchScreen.xib */; };
 		F007AE161BD03180004A9EA0 /* Don_t_Lose_YourselfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007AE151BD03180004A9EA0 /* Don_t_Lose_YourselfTests.swift */; };
+		F08C83AD1BD06784001F18E9 /* 8mile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F08C83AC1BD06784001F18E9 /* 8mile.mp3 */; };
+		F08C83AF1BD076B9001F18E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08C83AE1BD076B9001F18E9 /* CoreLocation.framework */; };
+		F08C83B11BD076CF001F18E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08C83B01BD076CF001F18E9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		F007AE0F1BD03180004A9EA0 /* Don't Lose YourselfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Don't Lose YourselfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F007AE141BD03180004A9EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F007AE151BD03180004A9EA0 /* Don_t_Lose_YourselfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Don_t_Lose_YourselfTests.swift; sourceTree = "<group>"; };
+		F08C83AC1BD06784001F18E9 /* 8mile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8mile.mp3; sourceTree = "<group>"; };
+		F08C83AE1BD076B9001F18E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F08C83B01BD076CF001F18E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08C83B11BD076CF001F18E9 /* MapKit.framework in Frameworks */,
+				F08C83AF1BD076B9001F18E9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,8 @@
 		F007ADF11BD03180004A9EA0 = {
 			isa = PBXGroup;
 			children = (
+				F08C83B01BD076CF001F18E9 /* MapKit.framework */,
+				F08C83AE1BD076B9001F18E9 /* CoreLocation.framework */,
 				F007ADFC1BD03180004A9EA0 /* Don't Lose Yourself */,
 				F007AE121BD03180004A9EA0 /* Don't Lose YourselfTests */,
 				F007ADFB1BD03180004A9EA0 /* Products */,
@@ -90,6 +100,7 @@
 		F007ADFD1BD03180004A9EA0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F08C83AC1BD06784001F18E9 /* 8mile.mp3 */,
 				F007ADFE1BD03180004A9EA0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +205,7 @@
 			files = (
 				F007AE051BD03180004A9EA0 /* Main.storyboard in Resources */,
 				F007AE0A1BD03180004A9EA0 /* LaunchScreen.xib in Resources */,
+				F08C83AD1BD06784001F18E9 /* 8mile.mp3 in Resources */,
 				F007AE071BD03180004A9EA0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				F007AE1B1BD03180004A9EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F007AE1C1BD03180004A9EA0 /* Build configuration list for PBXNativeTarget "Don't Lose YourselfTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				F007AE1E1BD03180004A9EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

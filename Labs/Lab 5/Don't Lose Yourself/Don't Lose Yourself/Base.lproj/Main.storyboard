@@ -8,7 +8,6 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Don_t_Lose_Yourself" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
@@ -60,8 +59,7 @@
                             <constraint firstAttribute="centerX" secondItem="ext-dN-Cfu" secondAttribute="centerX" id="6kF-WW-ZDF"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="qfl-9C-A6W" secondAttribute="bottom" constant="55" id="EcD-uq-atk"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="CPj-MT-1Te" secondAttribute="bottom" constant="55" id="dCe-ND-z0X"/>
-                            <constraint firstItem="ext-dN-Cfu" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="-8" id="fhf-u0-pxs"/>
-                            <constraint firstItem="ext-dN-Cfu" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="g5X-kj-dab"/>
+                            <constraint firstItem="ext-dN-Cfu" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="fhf-u0-pxs"/>
                             <constraint firstItem="CPj-MT-1Te" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="25" id="lAz-hE-C3r"/>
                             <constraint firstItem="CPj-MT-1Te" firstAttribute="top" secondItem="ext-dN-Cfu" secondAttribute="bottom" constant="35" id="mcy-od-L5z"/>
                             <constraint firstItem="qfl-9C-A6W" firstAttribute="top" secondItem="ext-dN-Cfu" secondAttribute="bottom" constant="35" id="sa1-37-kt6"/>
@@ -71,6 +69,7 @@
                         <outlet property="MapView" destination="ext-dN-Cfu" id="aqi-Kk-t3B"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="254" y="232"/>
         </scene>
