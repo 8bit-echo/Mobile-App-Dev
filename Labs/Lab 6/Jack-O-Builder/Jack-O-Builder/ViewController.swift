@@ -25,7 +25,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, AVAudioPlay
     @IBOutlet weak var scaryMouth: UIImageView!         // 10
     @IBOutlet weak var classicMouth: UIImageView!       // 11
     @IBOutlet weak var spikeyMouth: UIImageView!        // 12
-    
+    var audioPlayer : AVAudioPlayer?
    
     
     
@@ -50,11 +50,12 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, AVAudioPlay
 
    // Play audio on pumpkin
     @IBAction func playAudioClip(sender: UILongPressGestureRecognizer) {
-        var audioPlayer : AVAudioPlayer?
-        let audioFilePath = NSBundle.mainBundle().pathForResource("Halloween", ofType: "mp3")
+        
+        let audioFilePath = NSBundle.mainBundle().pathForResource("Halloween", ofType: ".mp3")
         let fileURL = NSURL(fileURLWithPath: audioFilePath!)
         audioPlayer = AVAudioPlayer(contentsOfURL: fileURL, error: nil)
-        if audioPlayer != nil{
+        
+        if audioPlayer != nil {
             audioPlayer!.play()
         }
     }

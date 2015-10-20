@@ -10,15 +10,15 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="classic-right" translatesAutoresizingMaskIntoConstraints="NO" id="qup-tF-qDd">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="classic-right" translatesAutoresizingMaskIntoConstraints="NO" id="qup-tF-qDd">
                     <rect key="frame" x="267" y="58" width="153" height="140"/>
                     <animations/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="classic-left" translatesAutoresizingMaskIntoConstraints="NO" id="Ly6-lr-2Ot">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="classic-left" translatesAutoresizingMaskIntoConstraints="NO" id="Ly6-lr-2Ot">
                     <rect key="frame" x="88" y="67" width="129" height="136"/>
                     <animations/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="classic-mouth" translatesAutoresizingMaskIntoConstraints="NO" id="3JI-9q-Y9d">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="classic-mouth" translatesAutoresizingMaskIntoConstraints="NO" id="3JI-9q-Y9d">
                     <rect key="frame" x="50" y="211" width="391" height="209"/>
                     <animations/>
                 </imageView>

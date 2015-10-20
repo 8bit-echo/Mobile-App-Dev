@@ -26,7 +26,7 @@
                                     <constraint firstAttribute="width" constant="313" id="mhB-q8-ak6"/>
                                 </constraints>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Uw9-qf-ELX" appends="YES" id="21P-4c-cee"/>
+                                    <outletCollection property="gestureRecognizers" destination="Uw9-qf-ELX" appends="YES" id="mo4-Of-73n"/>
                                 </connections>
                             </imageView>
                             <imageView multipleTouchEnabled="YES" tag="13" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry-mouth" translatesAutoresizingMaskIntoConstraints="NO" id="dDP-XK-SrD">
@@ -247,7 +247,7 @@
                             <constraint firstItem="q1t-2o-6Bo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="2" id="zVv-hV-uHn"/>
                         </constraints>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="nIF-XD-cK8" appends="YES" id="Q5F-fP-NR7"/>
+                            <outletCollection property="gestureRecognizers" destination="nas-4k-Tec" appends="YES" id="0QB-cQ-cRX"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="fr3-3J-0bE"/>
@@ -270,208 +270,247 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Uw9-qf-ELX">
                     <connections>
-                        <action selector="playAudioClip:" destination="BYZ-38-t0r" id="aXO-Xq-hkH"/>
+                        <action selector="playAudioClip:" destination="BYZ-38-t0r" id="w0V-ve-pBl"/>
                         <outlet property="delegate" destination="BYZ-38-t0r" id="Zcw-tx-DJD"/>
                     </connections>
                 </pongPressGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="yrK-hd-TrL">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="P7j-xP-anh"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="aHi-sU-Lgx"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="URi-ZE-W85">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="WwZ-Yf-nhG"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="pvz-4J-okd"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="efB-vC-swd">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="IIZ-Ze-0Uw"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="AXH-75-Mje"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="y4K-V8-zbf">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="iLM-2a-WCA"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="pr5-VZ-1G1"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="4Q0-0T-1Ot">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="p8f-3g-O1b"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="4Q6-kJ-D0T"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="YP8-5E-SYl">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="eln-rL-mlW"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="eaC-yy-7ed"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="7Sr-DJ-1OD">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="fzI-5Q-iJ1"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="7zI-8W-B1k"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="eYc-1D-Z1x">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="eb1-pc-yiJ"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="XOO-78-u85"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="KWj-Md-ZRu">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="eLZ-I5-I16"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Hld-0l-ziG"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="SOp-ta-i42">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="zDf-qF-sBl"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="tuG-hW-ZVO"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="WEJ-TE-kLB">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="hsN-oh-Vdh"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="KV1-tX-fBz"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="Wc5-Fw-ckd">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="7VX-QH-10s"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="PEm-ur-Xx1"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="XAX-qq-akx">
                     <connections>
                         <action selector="panMoveableImage:" destination="BYZ-38-t0r" id="T89-hD-Tcd"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="sDc-T3-vQ0"/>
                     </connections>
                 </panGestureRecognizer>
                 <pinchGestureRecognizer id="H3Q-k9-JEb">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="N3m-UG-ozi"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="2Mr-g5-Bf8"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="fRt-fc-bzN">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="qat-mL-X0y"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="CbG-rF-tGg"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="nDg-10-CYW">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="knC-k2-48l"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="32I-7g-jrE"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="TeG-J3-Zst">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="Us8-0j-9AQ"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="7uh-rJ-jgl"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="pNt-a0-dAn">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="jdp-lC-cUG"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="ubR-Tb-mhF"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="La6-z9-WNV">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="lGI-iz-HRu"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="h8C-vM-tuC"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="CfY-qu-MFS">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="2fR-4a-5BL"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="UeX-DF-Wmu"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="dYD-nP-yFU">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="0Ie-v5-I9t"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="3Sg-ax-6Hu"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="teZ-x4-mr7">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="72z-BI-qtm"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="D3U-XF-BWF"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="rT0-IO-y2Y">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="Y8z-fb-U8V"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="ID9-MZ-iEW"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="ANZ-1a-pne">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="uI9-SN-P4s"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Zu0-Yy-DXD"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="haJ-vt-pqj">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="fdk-rZ-4XQ"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Im2-W8-oB1"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="adf-do-PYR">
                     <connections>
                         <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="okl-pm-Squ"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="U7M-Nf-F5t"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <rotationGestureRecognizer id="Wwu-Lx-y6x">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="WOL-up-4oI"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Ctr-S1-kG7"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="OYd-qw-JRv">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="hqW-Ky-Gg2"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="XQ8-Pw-OGf"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="YBE-y4-nid">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="q47-mX-j5V"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="9u8-gI-bFw"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="sLm-t3-IWV">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="ihW-cf-Vcu"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="foN-9p-TQR"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="eZc-KZ-kmt">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="yUl-kV-NDb"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="m5D-x1-Xry"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="nM6-oq-QLr">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="y7T-3b-ZJX"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="WrQ-6d-kya"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="Eix-Si-afy">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="2sy-B5-Llo"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="aYE-lr-UjD"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="mDq-Eg-YCo">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="lxD-tu-3Tz"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Bu0-k8-acC"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="RuB-Eg-HGQ">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="Oi9-On-fKp"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="D31-oC-Srq"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="jKK-Qw-KrY">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="lpP-k3-Tii"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="1LT-Hc-7yJ"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="AYf-BS-ySi">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="BYW-5m-DlH"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="1g0-fb-WkS"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="owq-Be-1h3">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="hfC-56-7FZ"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="wCx-FQ-gV6"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="0NV-7f-g2U">
                     <connections>
                         <action selector="rotateMoveableImage:" destination="BYZ-38-t0r" id="pGd-D6-ArV"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="dyY-1W-rqU"/>
                     </connections>
                 </rotationGestureRecognizer>
-                <pinchGestureRecognizer id="nIF-XD-cK8">
+                <pinchGestureRecognizer id="nas-4k-Tec">
                     <connections>
-                        <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="0rr-sN-rWb"/>
+                        <action selector="pinchMoveableImage:" destination="BYZ-38-t0r" id="bti-Hl-qaF"/>
                     </connections>
                 </pinchGestureRecognizer>
             </objects>
