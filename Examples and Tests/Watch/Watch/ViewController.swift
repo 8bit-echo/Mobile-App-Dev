@@ -19,6 +19,11 @@ class ViewController: UIViewController {
 
 
     override func viewDidLoad() {
+        let timeTuple = getDate()
+        var returnedHour = timeTuple.hours
+        var returnedMin = timeTuple.minutes
+        timeTuple.seconds
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
@@ -50,12 +55,23 @@ class ViewController: UIViewController {
         return (hours: hour, minutes: minute, seconds: second)
     }
     
+<<<<<<< Updated upstream
     var timer : NSTimer = NSTimer()
     
     func updateTime() {
         timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: timer, selector:"getDate", userInfo: nil, repeats: true)
         
     }
+=======
+
+    
+    
+    //let timeTuple = getDate()
+    
+    //var returnedHour = timeTuple.hours
+    //var returnedMin = timeTuple.minutes
+    //timeTuple.seconds
+>>>>>>> Stashed changes
 
 }
 
@@ -64,5 +80,14 @@ var timeTuple = testObject?.getDate()
 var returnedHour = timeTuple!.hours
 var returnedMin = timeTuple!.minutes
 var returnedSecs = timeTuple!.seconds
+
+
+
+    var testObject: ViewController?
+    var timeTuple = testObject?.getDate()
+    var returnedHour = timeTuple!.hours
+    var returnedMin = timeTuple!.minutes
+    var returnedSecs = timeTuple!.seconds
+
 
 
