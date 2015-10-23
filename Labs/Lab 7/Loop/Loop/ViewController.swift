@@ -19,10 +19,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     @IBOutlet weak var playbackText: UILabel!
     @IBOutlet weak var activePlaybackText: UILabel!
     @IBOutlet weak var playbackLight: UIImageView!
-    @IBOutlet weak var activePlayBackLight: UIImageView!
     
     var audioPlayer1 : AVAudioPlayer?
-    var audiRecorder1 : AVAudioRecorder?
+    var audioRecorder1 : AVAudioRecorder?
     let track1 = "track1.caf"
     
     @IBOutlet weak var recordButton: UIButton!
@@ -38,17 +37,29 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         
         playButton.enabled = true
         stopButton.enabled = true
+        audioRecorder1?.record()
 
     }
     @IBAction func play(sender: UIButton) {
         stopButton.enabled = true
+        playbackLight.image = UIImage(named: "play.png")
+        
+        var error : NSError?
+        
+        audioPlayer1 = AVAudioPlayer(contentsOfURL: audioRecorder1?.url, error: &error)
+        //test for error
+        if let err = error {
+            println("AVAudioPlayer error: \(err.localizedDescription)")
+        } else {
+            audioPlayer1?.delegate=self
+        }
         
     }
     
     @IBAction func stop(sender: UIButton) {
         fadeAnimation(recordingLight, enabled: false)
         blinkAnimation(recordingText, isRunning: false)
-        
+        playbackLight.image = UIImage(named: "default.png")
         stopButton.enabled = true
         
         
@@ -72,8 +83,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         name.layer.addAnimation(fadeAnimation, forKey: "opacity")
     }
     
-    
-    
+
     func blinkAnimation(name: UIView, isRunning: Bool?){
         var blink = CAKeyframeAnimation(keyPath: "opacity")
         blink.keyTimes = [0, 0.5, 1]
@@ -95,11 +105,29 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     
     override func viewDidLoad() {
         
-        //fadeAnimation(activeRecordingText)
-        //blinkAnimation(activeRecordingLight)
         
         playButton.enabled = false
         stopButton.enabled = false
+        
+        
+        let dirPath = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+            let docDir = dirPath[0] as! String
+            let audioFilePath = docDir.stringByAppendingPathComponent(track1)
+            let audioFileURL = NSURL(fileURLWithPath: audioFilePath)
+        
+        let recordSettings = [AVEncoderAudioQualityKey: AVAudioQuality.Medium.rawValue, AVEncoderBitRateKey: 16, AVNumberOfChannelsKey: 2, AVSampleRateKey: 44100.0]
+        var error: NSError?
+        audioRecorder1 = AVAudioRecorder(URL: audioFileURL, settings: recordSettings as! [NSObject: AnyObject], error: &error)
+        
+        if let err = error {
+            println("AVAudioRecorder error: \(err.localizedDescription)")
+        } else { //no error
+            audioRecorder1?.delegate = self
+        }
+        
+     func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
+            recordButton.enabled = true
+            stopButton.enabled = false }
         
         
         super.viewDidLoad()
