@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Do_Date" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I33-gx-rfu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="6xS-9U-hjX"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Do Date" id="sV3-j7-YTr">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="GnT-e9-eea">
+                                            <connections>
+                                                <segue destination="Ufo-Pi-aKN" kind="presentation" id="0Wp-rc-BeH"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Hev-IE-27j">
+                                <rect key="frame" x="0.0" y="65" width="600" height="535"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hev-IE-27j" secondAttribute="bottom" id="1Lc-WI-Dna"/>
+                            <constraint firstItem="I33-gx-rfu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KX5-4d-Pak"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hev-IE-27j" secondAttribute="trailing" constant="-16" id="cHT-pk-2YJ"/>
+                            <constraint firstItem="I33-gx-rfu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ca8-mX-4Dn"/>
+                            <constraint firstItem="Hev-IE-27j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="drT-JL-5or"/>
+                            <constraint firstItem="Hev-IE-27j" firstAttribute="top" secondItem="I33-gx-rfu" secondAttribute="bottom" id="jXl-Mz-7gJ"/>
+                            <constraint firstAttribute="trailing" secondItem="I33-gx-rfu" secondAttribute="trailing" id="ks3-8g-N35"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableTasks" destination="Hev-IE-27j" id="cWd-Lf-chc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472" y="445"/>
+        </scene>
+        <!--AddNewModalViewController-->
+        <scene sceneID="3IU-aA-4YV">
+            <objects>
+                <viewController title="AddNewModalViewController" id="Ufo-Pi-aKN" customClass="AddNewModalViewController" customModule="Do_Date" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8i6-En-tXL"/>
+                        <viewControllerLayoutGuide type="bottom" id="gNr-lX-ja6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vf8-n1-Zby">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zpd-ls-Wg6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="OXU-ch-Vng"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Do Date" id="4fW-Po-zJX">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="reply" id="udi-c7-uOY">
+                                            <connections>
+                                                <segue destination="70E-Xy-iDZ" kind="unwind" unwindAction="undiwndSegue:" id="RPd-IO-cJM"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="fkh-0c-pwF">
+                                            <connections>
+                                                <action selector="cancelButton:" destination="Ufo-Pi-aKN" id="bC9-73-5zo"/>
+                                                <segue destination="70E-Xy-iDZ" kind="unwind" unwindAction="undiwndSegue:" id="ir7-u0-8ev"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Assignment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEY-2a-voG">
+                                <rect key="frame" x="217" y="74" width="166" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V4v-lb-GLl">
+                                <rect key="frame" x="16" y="108" width="568" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="jl5-gu-afN">
+                                <rect key="frame" x="0.0" y="213" width="600" height="162"/>
+                                <animations/>
+                                <date key="date" timeIntervalSinceReferenceDate="467487478.11259502">
+                                    <!--2015-10-25 17:37:58 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="datePickerChanged:" destination="Ufo-Pi-aKN" eventType="valueChanged" id="4mK-Nx-3kK"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY1-Kw-kg9">
+                                <rect key="frame" x="264" y="184" width="72" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bto-BQ-nua">
+                                <rect key="frame" x="16" y="146" width="568" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Puj-i8-u8Z">
+                                <rect key="frame" x="16" y="379" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Save">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addTask:" destination="Ufo-Pi-aKN" eventType="touchUpInside" id="y1D-Ly-f46"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="October 4, 1990" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZB-jm-I8C">
+                                <rect key="frame" x="454" y="383" width="125" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="V4v-lb-GLl" firstAttribute="top" secondItem="eEY-2a-voG" secondAttribute="bottom" constant="13" id="A7a-Cg-4YS"/>
+                            <constraint firstItem="jZB-jm-I8C" firstAttribute="trailing" secondItem="bto-BQ-nua" secondAttribute="trailing" constant="-5" id="DGY-tf-Ryg"/>
+                            <constraint firstItem="bto-BQ-nua" firstAttribute="trailing" secondItem="V4v-lb-GLl" secondAttribute="trailing" id="LAG-ZR-I6U"/>
+                            <constraint firstAttribute="trailing" secondItem="zpd-ls-Wg6" secondAttribute="trailing" id="REh-88-K3K"/>
+                            <constraint firstItem="jl5-gu-afN" firstAttribute="leading" secondItem="zpd-ls-Wg6" secondAttribute="leading" id="SQ2-cN-Hbq"/>
+                            <constraint firstItem="bto-BQ-nua" firstAttribute="top" secondItem="V4v-lb-GLl" secondAttribute="bottom" constant="8" id="Tfx-bv-6EQ"/>
+                            <constraint firstItem="V4v-lb-GLl" firstAttribute="centerX" secondItem="eEY-2a-voG" secondAttribute="centerX" id="Uwh-AA-QOa"/>
+                            <constraint firstItem="zpd-ls-Wg6" firstAttribute="top" secondItem="Vf8-n1-Zby" secondAttribute="top" id="dSv-vq-KaH"/>
+                            <constraint firstItem="jZB-jm-I8C" firstAttribute="top" secondItem="jl5-gu-afN" secondAttribute="bottom" constant="8" symbolic="YES" id="fAc-tQ-4xJ"/>
+                            <constraint firstItem="hY1-Kw-kg9" firstAttribute="centerX" secondItem="bto-BQ-nua" secondAttribute="centerX" id="fm7-sD-hsM"/>
+                            <constraint firstItem="hY1-Kw-kg9" firstAttribute="top" secondItem="bto-BQ-nua" secondAttribute="bottom" constant="8" id="hC5-GN-u7M"/>
+                            <constraint firstItem="V4v-lb-GLl" firstAttribute="leading" secondItem="Vf8-n1-Zby" secondAttribute="leadingMargin" id="hWx-ve-GF9"/>
+                            <constraint firstItem="zpd-ls-Wg6" firstAttribute="leading" secondItem="Vf8-n1-Zby" secondAttribute="leading" id="ijB-nJ-3uO"/>
+                            <constraint firstItem="jl5-gu-afN" firstAttribute="trailing" secondItem="zpd-ls-Wg6" secondAttribute="trailing" id="k5f-Lf-Qws"/>
+                            <constraint firstItem="bto-BQ-nua" firstAttribute="leading" secondItem="V4v-lb-GLl" secondAttribute="leading" id="pDs-oM-Pko"/>
+                            <constraint firstItem="eEY-2a-voG" firstAttribute="centerX" secondItem="zpd-ls-Wg6" secondAttribute="centerX" id="rzO-8f-dHo"/>
+                            <constraint firstItem="jl5-gu-afN" firstAttribute="top" secondItem="hY1-Kw-kg9" secondAttribute="bottom" constant="8" id="ylA-in-iYa"/>
+                            <constraint firstItem="eEY-2a-voG" firstAttribute="top" secondItem="zpd-ls-Wg6" secondAttribute="bottom" constant="9" id="z0u-b0-03i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="assignmentDescriptionTextField" destination="bto-BQ-nua" id="YiQ-aD-kl2"/>
+                        <outlet property="assignmentNameTextField" destination="V4v-lb-GLl" id="wuP-8y-aHq"/>
+                        <outlet property="dueDateLabel" destination="jZB-jm-I8C" id="u7F-hq-vSI"/>
+                        <outlet property="dueDatePicker" destination="jl5-gu-afN" id="QjY-Nu-nBS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GGo-N0-g7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="70E-Xy-iDZ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1224" y="445"/>
+        </scene>
+    </scenes>
+</document>

@@ -26,7 +26,6 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         
         dateLabel.text = dateAsString
         
-        
     }
 
     

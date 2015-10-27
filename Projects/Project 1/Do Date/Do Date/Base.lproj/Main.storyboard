@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
@@ -21,6 +21,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hz1-uA-4VQ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="9pv-A4-QxB" id="OG6-5p-YEp"/>
@@ -29,6 +30,7 @@
                             </tableView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dcZ-GY-FqP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="jNS-kU-h0S"/>
                                 </constraints>
@@ -51,6 +53,7 @@
                                 </variation>
                             </navigationBar>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="dcZ-GY-FqP" secondAttribute="trailing" constant="-16" id="2bX-th-Mat"/>
@@ -115,12 +118,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Assignment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYw-bL-D2k">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H37-DV-Bba">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Aw3-Vo-ldF"/>
                                 </constraints>
@@ -142,6 +147,7 @@
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NRv-S1-exZ">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2cg-wK-Prt"/>
                                 </constraints>
@@ -161,6 +167,7 @@
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ULr-jV-NZO">
                                 <rect key="frame" x="-160" y="-81" width="320" height="162"/>
+                                <animations/>
                                 <date key="date" timeIntervalSinceReferenceDate="465234950.04107797">
                                     <!--2015-09-29 15:55:50 +0000-->
                                 </date>
@@ -170,6 +177,7 @@
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJO-LD-Moi">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="8ri-PY-GdI"/>
                                     <constraint firstAttribute="height" constant="30" id="ySC-9y-n6d"/>
@@ -195,12 +203,14 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LvI-gG-egJ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHZ-OY-oDR">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="lmF-H3-Zua"/>
                                 </constraints>
@@ -224,6 +234,7 @@
                             </navigationBar>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDg-f5-nJM">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="298" id="2we-b5-uQb">
                                         <variation key="widthClass=compact" constant="222"/>
@@ -249,6 +260,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LvI-gG-egJ" firstAttribute="baseline" secondItem="MJO-LD-Moi" secondAttribute="baseline" id="0MI-R5-dRF"/>
@@ -296,32 +308,32 @@
                                 <exclude reference="kDg-f5-nJM"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="7Q6-83-vN0"/>
+                                <exclude reference="ky2-Xm-Ld3"/>
+                                <exclude reference="0MI-R5-dRF"/>
+                                <exclude reference="G5L-KE-lpB"/>
+                                <exclude reference="NOa-h6-qIX"/>
+                                <exclude reference="XFN-Zg-amr"/>
+                                <exclude reference="H7u-ug-O9J"/>
+                                <exclude reference="eMa-Xa-0P6"/>
+                                <exclude reference="fsd-0S-cVB"/>
+                                <exclude reference="oPt-AJ-IpW"/>
+                                <exclude reference="2UX-Ob-yiN"/>
+                                <exclude reference="SW9-44-LbG"/>
+                                <exclude reference="vAs-4m-lGi"/>
+                                <exclude reference="GrX-Yx-QRG"/>
+                                <exclude reference="Wgj-QD-b3F"/>
+                                <exclude reference="izJ-sA-yZu"/>
                                 <exclude reference="3TG-co-6D0"/>
                                 <exclude reference="J4a-U8-PXB"/>
                                 <exclude reference="d0K-RI-m22"/>
                                 <exclude reference="V3T-gr-yOc"/>
                                 <exclude reference="hiJ-t9-HyH"/>
                                 <exclude reference="oUU-k9-69e"/>
-                                <exclude reference="2UX-Ob-yiN"/>
-                                <exclude reference="SW9-44-LbG"/>
-                                <exclude reference="vAs-4m-lGi"/>
-                                <exclude reference="7Q6-83-vN0"/>
-                                <exclude reference="ky2-Xm-Ld3"/>
-                                <exclude reference="H7u-ug-O9J"/>
-                                <exclude reference="eMa-Xa-0P6"/>
-                                <exclude reference="fsd-0S-cVB"/>
-                                <exclude reference="oPt-AJ-IpW"/>
                                 <exclude reference="RMT-Nt-FOU"/>
                                 <exclude reference="evj-LF-Ylo"/>
                                 <exclude reference="jTA-mW-Eha"/>
                                 <exclude reference="tNM-E8-3Vm"/>
-                                <exclude reference="0MI-R5-dRF"/>
-                                <exclude reference="G5L-KE-lpB"/>
-                                <exclude reference="NOa-h6-qIX"/>
-                                <exclude reference="XFN-Zg-amr"/>
-                                <exclude reference="GrX-Yx-QRG"/>
-                                <exclude reference="Wgj-QD-b3F"/>
-                                <exclude reference="izJ-sA-yZu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -336,32 +348,32 @@
                                 <include reference="kDg-f5-nJM"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="7Q6-83-vN0"/>
+                                <include reference="ky2-Xm-Ld3"/>
+                                <include reference="0MI-R5-dRF"/>
+                                <include reference="G5L-KE-lpB"/>
+                                <include reference="NOa-h6-qIX"/>
+                                <include reference="XFN-Zg-amr"/>
+                                <include reference="H7u-ug-O9J"/>
+                                <include reference="eMa-Xa-0P6"/>
+                                <include reference="fsd-0S-cVB"/>
+                                <include reference="oPt-AJ-IpW"/>
+                                <include reference="2UX-Ob-yiN"/>
+                                <include reference="SW9-44-LbG"/>
+                                <include reference="vAs-4m-lGi"/>
+                                <include reference="GrX-Yx-QRG"/>
+                                <include reference="Wgj-QD-b3F"/>
+                                <include reference="izJ-sA-yZu"/>
                                 <include reference="3TG-co-6D0"/>
                                 <include reference="J4a-U8-PXB"/>
                                 <include reference="d0K-RI-m22"/>
                                 <include reference="V3T-gr-yOc"/>
                                 <include reference="hiJ-t9-HyH"/>
                                 <include reference="oUU-k9-69e"/>
-                                <include reference="2UX-Ob-yiN"/>
-                                <include reference="SW9-44-LbG"/>
-                                <include reference="vAs-4m-lGi"/>
-                                <include reference="7Q6-83-vN0"/>
-                                <include reference="ky2-Xm-Ld3"/>
-                                <include reference="H7u-ug-O9J"/>
-                                <include reference="eMa-Xa-0P6"/>
-                                <include reference="fsd-0S-cVB"/>
-                                <include reference="oPt-AJ-IpW"/>
                                 <include reference="RMT-Nt-FOU"/>
                                 <include reference="evj-LF-Ylo"/>
                                 <include reference="jTA-mW-Eha"/>
                                 <include reference="tNM-E8-3Vm"/>
-                                <include reference="0MI-R5-dRF"/>
-                                <include reference="G5L-KE-lpB"/>
-                                <include reference="NOa-h6-qIX"/>
-                                <include reference="XFN-Zg-amr"/>
-                                <include reference="GrX-Yx-QRG"/>
-                                <include reference="Wgj-QD-b3F"/>
-                                <include reference="izJ-sA-yZu"/>
                             </mask>
                         </variation>
                     </view>
@@ -385,6 +397,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -405,6 +418,7 @@
                         <viewControllerLayoutGuide type="bottom" id="zMD-BS-B11"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZbX-QO-8Ii">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ax-44-hDY">
@@ -415,6 +429,7 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSY-oD-LTr">
                                             <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                            <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -424,6 +439,7 @@
                                             </variation>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <variation key="default">
                                         <mask key="subviews">
                                             <exclude reference="YSY-oD-LTr"/>
@@ -435,12 +451,14 @@
                                         </mask>
                                     </variation>
                                 </view>
+                                <animations/>
                                 <blurEffect style="light"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="-8" y="-8" width="329" height="113"/>
                                 </variation>
                             </visualEffectView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
