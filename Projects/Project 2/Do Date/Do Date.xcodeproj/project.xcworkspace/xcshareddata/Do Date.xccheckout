@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>902119BA-47AA-451B-BEED-EE3F0F823A91</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Do Date</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A078AC243CACC6A8E3B269EC3EA6A8B897998649</key>
 		<string>https://github.com/dick-ey/Mobile-App-Dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Projects/Project 2/Do Date/Do Date.xcodeproj/project.xcworkspace</string>
+	<string>Projects/Project 2/Do Date/Do Date.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A078AC243CACC6A8E3B269EC3EA6A8B897998649</key>

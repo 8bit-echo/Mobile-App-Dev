@@ -35,34 +35,52 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         
         fadeAnimation(recordingLight, enabled: true)
         
-        playButton.enabled = true
-        stopButton.enabled = true
-        audioRecorder1?.record()
-
+        if audioRecorder1?.recording == false{
+            playButton.enabled = false
+            stopButton.enabled = true
+            audioRecorder1?.record()
+        }
     }
+    
+        
     @IBAction func play(sender: UIButton) {
-        stopButton.enabled = true
         playbackLight.image = UIImage(named: "play.png")
         
-        var error : NSError?
-        
-        audioPlayer1 = AVAudioPlayer(contentsOfURL: audioRecorder1?.url, error: &error)
-        //test for error
-        if let err = error {
-            println("AVAudioPlayer error: \(err.localizedDescription)")
-        } else {
-            audioPlayer1?.delegate=self
-        }
-        
+            if audioRecorder1?.recording == false {
+                stopButton.enabled = true
+                recordButton.enabled = false
+                var error: NSError?
+                
+                audioPlayer1 = AVAudioPlayer(contentsOfURL: audioRecorder1?.url, error: &error)
+                
+                if let err = error {
+                    println("AVAudioPlayer error: \(err.localizedDescription)")
+                    } else {
+                    audioPlayer1?.delegate=self
+                    audioPlayer1?.play()
+                    }
+            }
     }
     
     @IBAction func stop(sender: UIButton) {
         fadeAnimation(recordingLight, enabled: false)
         blinkAnimation(recordingText, isRunning: false)
         playbackLight.image = UIImage(named: "default.png")
-        stopButton.enabled = true
+        stopButton.enabled = false
+        playButton.enabled = true
+        recordButton.enabled = true
         
         
+        if audioRecorder1?.recording == true {
+            audioRecorder1?.stop()
+        }else {
+            audioPlayer1?.stop()
+        }
+    }
+    
+    func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
+        recordButton.enabled = true
+        stopButton.enabled = false
     }
     
  
@@ -127,18 +145,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         
      func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
             recordButton.enabled = true
-            stopButton.enabled = false }
+            stopButton.enabled = false
+            playbackLight.image = UIImage(named: "default.png")
+                
+                //WHY DOESN'T THIS LAST LINE WORK?
+            }
         
         
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
