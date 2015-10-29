@@ -47,6 +47,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         grandTotal.text=currencyFormatter.stringFromNumber(total)
         splitTotal.text=currencyFormatter.stringFromNumber(personTotal)
         
+        var testformatter = NSNumberFormatter()
+        
         
     }
     
