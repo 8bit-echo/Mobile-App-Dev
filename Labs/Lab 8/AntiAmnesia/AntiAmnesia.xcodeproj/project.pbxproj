@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06B58E51BE3318A00D1C118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B58E41BE3318A00D1C118 /* AppDelegate.swift */; };
+		F06B58E71BE3318A00D1C118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B58E61BE3318A00D1C118 /* ViewController.swift */; };
+		F06B58EA1BE3318A00D1C118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06B58E81BE3318A00D1C118 /* Main.storyboard */; };
+		F06B58EC1BE3318A00D1C118 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06B58EB1BE3318A00D1C118 /* Images.xcassets */; };
+		F06B58EF1BE3318B00D1C118 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06B58ED1BE3318B00D1C118 /* LaunchScreen.xib */; };
+		F06B58FB1BE3318B00D1C118 /* AntiAmnesiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B58FA1BE3318B00D1C118 /* AntiAmnesiaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06B58F51BE3318B00D1C118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06B58D71BE3318A00D1C118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06B58DE1BE3318A00D1C118;
+			remoteInfo = AntiAmnesia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F06B58DF1BE3318A00D1C118 /* AntiAmnesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntiAmnesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06B58E31BE3318A00D1C118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06B58E41BE3318A00D1C118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06B58E61BE3318A00D1C118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F06B58E91BE3318A00D1C118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06B58EB1BE3318A00D1C118 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F06B58EE1BE3318B00D1C118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F06B58F41BE3318B00D1C118 /* AntiAmnesiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiAmnesiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06B58F91BE3318B00D1C118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06B58FA1BE3318B00D1C118 /* AntiAmnesiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntiAmnesiaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06B58DC1BE3318A00D1C118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B58F11BE3318B00D1C118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F06B58D61BE3318A00D1C118 = {
+			isa = PBXGroup;
+			children = (
+				F06B58E11BE3318A00D1C118 /* AntiAmnesia */,
+				F06B58F71BE3318B00D1C118 /* AntiAmnesiaTests */,
+				F06B58E01BE3318A00D1C118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06B58E01BE3318A00D1C118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06B58DF1BE3318A00D1C118 /* AntiAmnesia.app */,
+				F06B58F41BE3318B00D1C118 /* AntiAmnesiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06B58E11BE3318A00D1C118 /* AntiAmnesia */ = {
+			isa = PBXGroup;
+			children = (
+				F06B58E41BE3318A00D1C118 /* AppDelegate.swift */,
+				F06B58E61BE3318A00D1C118 /* ViewController.swift */,
+				F06B58E81BE3318A00D1C118 /* Main.storyboard */,
+				F06B58EB1BE3318A00D1C118 /* Images.xcassets */,
+				F06B58ED1BE3318B00D1C118 /* LaunchScreen.xib */,
+				F06B58E21BE3318A00D1C118 /* Supporting Files */,
+			);
+			path = AntiAmnesia;
+			sourceTree = "<group>";
+		};
+		F06B58E21BE3318A00D1C118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06B58E31BE3318A00D1C118 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F06B58F71BE3318B00D1C118 /* AntiAmnesiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F06B58FA1BE3318B00D1C118 /* AntiAmnesiaTests.swift */,
+				F06B58F81BE3318B00D1C118 /* Supporting Files */,
+			);
+			path = AntiAmnesiaTests;
+			sourceTree = "<group>";
+		};
+		F06B58F81BE3318B00D1C118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06B58F91BE3318B00D1C118 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06B58DE1BE3318A00D1C118 /* AntiAmnesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06B58FE1BE3318B00D1C118 /* Build configuration list for PBXNativeTarget "AntiAmnesia" */;
+			buildPhases = (
+				F06B58DB1BE3318A00D1C118 /* Sources */,
+				F06B58DC1BE3318A00D1C118 /* Frameworks */,
+				F06B58DD1BE3318A00D1C118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntiAmnesia;
+			productName = AntiAmnesia;
+			productReference = F06B58DF1BE3318A00D1C118 /* AntiAmnesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F06B58F31BE3318B00D1C118 /* AntiAmnesiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06B59011BE3318B00D1C118 /* Build configuration list for PBXNativeTarget "AntiAmnesiaTests" */;
+			buildPhases = (
+				F06B58F01BE3318B00D1C118 /* Sources */,
+				F06B58F11BE3318B00D1C118 /* Frameworks */,
+				F06B58F21BE3318B00D1C118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06B58F61BE3318B00D1C118 /* PBXTargetDependency */,
+			);
+			name = AntiAmnesiaTests;
+			productName = AntiAmnesiaTests;
+			productReference = F06B58F41BE3318B00D1C118 /* AntiAmnesiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06B58D71BE3318A00D1C118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Matt Dickey";
+				TargetAttributes = {
+					F06B58DE1BE3318A00D1C118 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F06B58F31BE3318B00D1C118 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F06B58DE1BE3318A00D1C118;
+					};
+				};
+			};
+			buildConfigurationList = F06B58DA1BE3318A00D1C118 /* Build configuration list for PBXProject "AntiAmnesia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06B58D61BE3318A00D1C118;
+			productRefGroup = F06B58E01BE3318A00D1C118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06B58DE1BE3318A00D1C118 /* AntiAmnesia */,
+				F06B58F31BE3318B00D1C118 /* AntiAmnesiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06B58DD1BE3318A00D1C118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B58EA1BE3318A00D1C118 /* Main.storyboard in Resources */,
+				F06B58EF1BE3318B00D1C118 /* LaunchScreen.xib in Resources */,
+				F06B58EC1BE3318A00D1C118 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B58F21BE3318B00D1C118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06B58DB1BE3318A00D1C118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B58E71BE3318A00D1C118 /* ViewController.swift in Sources */,
+				F06B58E51BE3318A00D1C118 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B58F01BE3318B00D1C118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B58FB1BE3318B00D1C118 /* AntiAmnesiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06B58F61BE3318B00D1C118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06B58DE1BE3318A00D1C118 /* AntiAmnesia */;
+			targetProxy = F06B58F51BE3318B00D1C118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F06B58E81BE3318A00D1C118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06B58E91BE3318A00D1C118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06B58ED1BE3318B00D1C118 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06B58EE1BE3318B00D1C118 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06B58FC1BE3318B00D1C118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06B58FD1BE3318B00D1C118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06B58FF1BE3318B00D1C118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AntiAmnesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F06B59001BE3318B00D1C118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AntiAmnesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F06B59021BE3318B00D1C118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AntiAmnesiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntiAmnesia.app/AntiAmnesia";
+			};
+			name = Debug;
+		};
+		F06B59031BE3318B00D1C118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AntiAmnesiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntiAmnesia.app/AntiAmnesia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06B58DA1BE3318A00D1C118 /* Build configuration list for PBXProject "AntiAmnesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06B58FC1BE3318B00D1C118 /* Debug */,
+				F06B58FD1BE3318B00D1C118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06B58FE1BE3318B00D1C118 /* Build configuration list for PBXNativeTarget "AntiAmnesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06B58FF1BE3318B00D1C118 /* Debug */,
+				F06B59001BE3318B00D1C118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F06B59011BE3318B00D1C118 /* Build configuration list for PBXNativeTarget "AntiAmnesiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06B59021BE3318B00D1C118 /* Debug */,
+				F06B59031BE3318B00D1C118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06B58D71BE3318A00D1C118 /* Project object */;
+}
