@@ -9,8 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func unwindSegue(segue: UIStoryboardSegue){
+        
+    }
+    
+    @IBOutlet weak var firstNameLabel: UILabel!
+    @IBOutlet weak var lastNameLabel: UILabel!
+    @IBOutlet weak var birthdayLabel: UILabel!
+    
 
+    
+    
     override func viewDidLoad() {
+        
+            
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
