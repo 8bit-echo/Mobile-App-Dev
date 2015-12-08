@@ -1,14 +1,16 @@
 <resources>
     <string name="app_name">My Metal</string>
     <string name="name">Name</string>
-    <string name="checkBox0">0</string>
-    <string name="checkBox1">1</string>
-    <string name="checkBox2">2</string>
-    <string name="checkBox3">3</string>
+    <string name="product"> </string>
+    <string name="checkBox0"> </string>
+    <string name="checkBox1"> </string>
+    <string name="checkBox2"> </string>
+    <string name="checkBox3"> </string>
     <string name="toggleOff">doesn\'t Like</string>
     <string name="toggleOn">likes</string>
     <string name="generate">\\m/</string>
-
+    <string name="update">Update</string>
+    <string name="imageDescription">metal hand horns</string>
 
 
     <!--Spinner-->

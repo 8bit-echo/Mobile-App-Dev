@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MultiIntent</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Looking For Something to Watch?</string>
+    <string name="description"> There's so much content on Netflix! How do you choose what to watch? Select a mood below and we'll help you with that,
+        or hit the randomize button for a wild card.</string>
+    <string name="random">Randomize</string>
+    <string name="getLinks"> Get Links</string>
+
+    <string-array name="genres">
+        <item>"drama"</item>
+        <item>"comedy"</item>
+        <item>"suspense / thriller"</item>
+        <item>"documentary"</item>
+        <item>"holiday"</item>
+        <item>"children's"</item>
+        <item>"horror"</item>
+        <item>"action / adventure"</item>
+    </string-array>
+
+
+</resources>
