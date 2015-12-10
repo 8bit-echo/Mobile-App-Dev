@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">The Final Pizza</string>
+    <string name="name">Name your Pie</string>
+    <string name="toggleOn">Red Sauce</string>
+    <string name="toggleOff">White Sauce</string>
+
+    <string name="crust">crust type</string>
+    <string name="thin">Thin</string>
+    <string name="deepDish">Deep Dish</string>
+
+    <string name="pepperoni">pepperoni</string>
+    <string name="mushrooms">mushrooms</string>
+    <string name="onions">onions</string>
+    <string name="sausage">sausage</string>
+
+    <string name="sizePrompt">choose a size</string>
+    <string-array name="size">
+        <item>Size</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+
+    <string name="gf">gluten-free</string>
+    <string name="pizza">pizza</string>
+
+    <string name="links">Find This zza</string>
+    <string name="blank"> </string>
+
+</resources>
