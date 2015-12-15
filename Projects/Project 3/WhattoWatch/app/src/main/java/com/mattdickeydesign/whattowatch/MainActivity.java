@@ -1,11 +1,11 @@
 package com.mattdickeydesign.whattowatch;
 
+import android.R;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Spinner;
-import android.R;
 
 
 
@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
         intent.putExtra("movieGenre", suggestedMovies);
         intent.putExtra("movieName", suggestedTitle);
-
 
         startActivity(intent);
 

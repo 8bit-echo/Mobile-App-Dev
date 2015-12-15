@@ -1,8 +1,5 @@
 package com.mattdickeydesign.whattowatch;
 
-import com.mattdickeydesign.whattowatch.MainActivity;
-
-
 public class MovieList {
 
 

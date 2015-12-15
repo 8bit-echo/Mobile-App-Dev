@@ -2,10 +2,7 @@ package com.mattdickeydesign.whattowatch;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import java.io.IOException;
-import java.io.InputStream;
 
 
 //Define a new object For a Netflix Movie that contains data parsed from the jsoup API via IMDB page.
