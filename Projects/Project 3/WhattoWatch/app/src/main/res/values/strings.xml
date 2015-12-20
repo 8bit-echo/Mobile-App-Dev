@@ -7,12 +7,12 @@
     <string name="getLinks"> Get Links</string>
 
     <string-array name="genres">
-        <item>"action / adventure"</item>
+        <item>"action adventure"</item>
         <item>"comedy"</item>
         <item>"documentary"</item>
         <item>"drama"</item>
         <item>"horror"</item>
-        <item>"suspense / thriller"</item>
+        <item>"suspense thriller"</item>
     </string-array>
 
     <string-array name="action">
@@ -65,6 +65,6 @@
 
     <string name="title_activity_web">WebActivity</string>
     <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_content">DUMMYCONTENT</string>
 
 </resources>

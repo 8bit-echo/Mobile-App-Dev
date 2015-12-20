@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(suggestedMovies + " / " + suggestedTitle);
 
 
-        Intent intent new Intent(this.MovieListActivity.class);
+        Intent intent = new Intent(this, MovieListActivity.class);
 
         intent.putExtra("movieGenre", suggestedMovies);
         intent.putExtra("movieName", suggestedTitle);
