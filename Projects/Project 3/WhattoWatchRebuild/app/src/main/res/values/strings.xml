@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">What to Watch</string>
+    <string name="welcome">Looking For Something to Watch?</string>
+    <string name="description"> There\'s so much content on Netflix! How do you choose what to watch? Select a mood below and we\'ll help you with that,
+        or hit the randomize button for a wild card.</string>
+    <string name="random">Randomize</string>
+    <string name="getLinks"> Get Links</string>
+
+    <string-array name="genres">
+        <item>"action"</item>
+        <item>"comedy"</item>
+        <item>"documentary"</item>
+        <item>"drama"</item>
+        <item>"horror"</item>
+        <item>"thriller"</item>
+    </string-array>
+
+    <string-array name="action">
+        <item>Inglorious Basterds</item>
+        <item>Gladiator</item>
+        <item>Tomb Raider</item>
+        <item>Snowpiercer</item>
+        <item>National Treasure</item>
+    </string-array>
+
+    <string-array name="comedy">
+        <item>Zoolander</item>
+        <item>Tommy Boy</item>
+        <item>Bruce Almighty</item>
+        <item>Hot Rod</item>
+        <item>Big Daddy</item>
+    </string-array>
+
+    <string-array name="documentary">
+        <item>Planet Earth</item>
+        <item>Cosmos</item>
+        <item>Robin Williams Remembered</item>
+        <item>Alive Inside</item>
+        <item>Survive and Advance</item>
+    </string-array>
+
+    <string-array name="drama">
+        <item>Forrest Gump</item>
+        <item>Good Will Hunting</item>
+        <item>Pulp Fiction</item>
+        <item>Blacklist</item>
+        <item>Silver Linings Playbook</item>
+    </string-array>
+
+    <string-array name="horror">
+        <item>Oculus</item>
+        <item>Let the Right One In</item>
+        <item>Sleepy Hollow</item>
+        <item>Children of the Corn</item>
+        <item>Darkness Falls</item>
+    </string-array>
+
+    <string-array name="thriller">
+        <item>The Girl With the Dragon Tattoo</item>
+        <item>The Best Offer</item>
+        <item>Scapegoat</item>
+        <item>Changeling</item>
+        <item>The Others</item>
+    </string-array>
+
+    <string name="title_activity_web">WebActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
